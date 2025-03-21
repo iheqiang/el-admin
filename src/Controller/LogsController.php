@@ -11,13 +11,13 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Controller;
+namespace Latent\ElAdmin\Controller;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Http\JsonResponse;
-use Iheqiang\ElAdmin\Exceptions\ValidateException;
-use Iheqiang\ElAdmin\Models\ModelTraits;
-use Iheqiang\ElAdmin\Services\LogServices;
+use Latent\ElAdmin\Exceptions\ValidateException;
+use Latent\ElAdmin\Models\ModelTraits;
+use Latent\ElAdmin\Services\LogServices;
 
 class LogsController extends Controller
 {

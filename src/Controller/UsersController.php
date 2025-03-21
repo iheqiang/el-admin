@@ -11,15 +11,15 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Controller;
+namespace Latent\ElAdmin\Controller;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Validation\Rule;
-use Iheqiang\ElAdmin\Enum\ModelEnum;
-use Iheqiang\ElAdmin\Exceptions\ValidateException;
-use Iheqiang\ElAdmin\Models\ModelTraits;
-use Iheqiang\ElAdmin\Rules\CheckPassword;
-use Iheqiang\ElAdmin\Services\UserService;
+use Latent\ElAdmin\Enum\ModelEnum;
+use Latent\ElAdmin\Exceptions\ValidateException;
+use Latent\ElAdmin\Models\ModelTraits;
+use Latent\ElAdmin\Rules\CheckPassword;
+use Latent\ElAdmin\Services\UserService;
 use Throwable;
 
 class UsersController extends Controller

@@ -11,11 +11,11 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Exceptions;
+namespace Latent\ElAdmin\Exceptions;
 
 use Exception;
 use Illuminate\Http\JsonResponse;
-use Iheqiang\ElAdmin\Enum\Status;
+use Latent\ElAdmin\Enum\Status;
 
 class ValidateException extends Exception
 {

@@ -11,14 +11,14 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Controller;
+namespace Latent\ElAdmin\Controller;
 
 use Illuminate\Http\JsonResponse;
-use Iheqiang\ElAdmin\Enum\ModelEnum;
-use Iheqiang\ElAdmin\Exceptions\ValidateException;
-use Iheqiang\ElAdmin\Services\AuthServices;
-use Iheqiang\ElAdmin\Services\Permission;
-use Iheqiang\ElAdmin\Support\Helpers;
+use Latent\ElAdmin\Enum\ModelEnum;
+use Latent\ElAdmin\Exceptions\ValidateException;
+use Latent\ElAdmin\Services\AuthServices;
+use Latent\ElAdmin\Services\Permission;
+use Latent\ElAdmin\Support\Helpers;
 use Psr\SimpleCache\InvalidArgumentException;
 
 class AuthController extends Controller

@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Enum;
+namespace Latent\ElAdmin\Enum;
 
 class Status
 {

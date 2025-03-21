@@ -11,7 +11,7 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Support;
+namespace Latent\ElAdmin\Support;
 
 use Exception;
 use Symfony\Component\Process\Process;

@@ -1,17 +1,17 @@
 {
-    "name": "iheqiang/el-admin",
+    "name": "latent/el-admin",
     "description": "This is a backend management API extension package for Laravel+Vue, which can help you quickly build a RBAC permission management backend.",
     "license": "MIT",
     "keywords":["laravel","admin"],
     "support": {
-        "issues": "https://github.com/iheqiang/el-admin/issues",
-        "source": "https://github.com/iheqiang/el-admin"
+        "issues": "https://github.com/pl1998/el-admin/issues",
+        "source": "https://github.com/pl1998/el-admin"
     },
     "authors": [
         {
-            "name": "heqiang",
-            "email": "heqiangrd@gmail.com",
-            "homepage": "https://github.com/iheqiang"
+            "name": "latent",
+            "email": "pltrueover@gmail.com",
+            "homepage": "https://github.com/pl1998"
         }
     ],
     "require": {
@@ -22,19 +22,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Iheqiang\\ElAdmin\\": "src/"
+            "Latent\\ElAdmin\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Iheqiang\\ElAdmin\\ElAdminServiceProvider"
+                "Latent\\ElAdmin\\ElAdminServiceProvider"
             ]
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Iheqiang\\ElAdmin\\Tests\\": "tests/"
+            "Latent\\ElAdmin\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",

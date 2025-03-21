@@ -9,13 +9,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Models;
+namespace Latent\ElAdmin\Models;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Hash;
-use Iheqiang\ElAdmin\Enum\MethodEnum;
-use Iheqiang\ElAdmin\Enum\ModelEnum;
+use Latent\ElAdmin\Enum\MethodEnum;
+use Latent\ElAdmin\Enum\ModelEnum;
 
 class ElAdminSeeder extends Seeder
 {

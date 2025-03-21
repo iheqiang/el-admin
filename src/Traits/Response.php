@@ -11,10 +11,10 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Traits;
+namespace Latent\ElAdmin\Traits;
 
 use Illuminate\Http\JsonResponse;
-use Iheqiang\ElAdmin\Enum\Status;
+use Latent\ElAdmin\Enum\Status;
 
 trait Response
 {

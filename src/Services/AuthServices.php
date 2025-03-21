@@ -11,10 +11,10 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Services;
+namespace Latent\ElAdmin\Services;
 
 use Illuminate\Http\JsonResponse;
-use Iheqiang\ElAdmin\Traits\Response;
+use Latent\ElAdmin\Traits\Response;
 
 class AuthServices
 {

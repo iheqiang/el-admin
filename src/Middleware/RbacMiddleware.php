@@ -11,15 +11,15 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Middleware;
+namespace Latent\ElAdmin\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Iheqiang\ElAdmin\Enum\Status;
-use Iheqiang\ElAdmin\Services\Permission;
-use Iheqiang\ElAdmin\Traits\Response as ApiResponse;
+use Latent\ElAdmin\Enum\Status;
+use Latent\ElAdmin\Services\Permission;
+use Latent\ElAdmin\Traits\Response as ApiResponse;
 use Psr\SimpleCache\InvalidArgumentException;
 
 class RbacMiddleware

@@ -86,7 +86,7 @@ return [
         ],
         'admin_users' => [
             'driver' => 'eloquent',
-            'model' => Iheqiang\ElAdmin\Models\AdminUser::class,
+            'model' => Latent\ElAdmin\Models\AdminUser::class,
         ],
 
         // 'users' => [

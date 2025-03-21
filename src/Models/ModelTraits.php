@@ -11,11 +11,11 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Models;
+namespace Latent\ElAdmin\Models;
 
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Database\Eloquent\Model;
-use Iheqiang\ElAdmin\Factories\ModelFactory;
+use Latent\ElAdmin\Factories\ModelFactory;
 
 trait ModelTraits
 {

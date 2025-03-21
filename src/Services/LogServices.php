@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Iheqiang\ElAdmin\Services;
+namespace Latent\ElAdmin\Services;
 
-use Iheqiang\ElAdmin\Models\ModelTraits;
+use Latent\ElAdmin\Models\ModelTraits;
 
 class LogServices
 {
