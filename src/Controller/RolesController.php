@@ -11,12 +11,12 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Controller;
+namespace Iheqiang\ElAdmin\Controller;
 
 use Illuminate\Http\JsonResponse;
-use Latent\ElAdmin\Models\ModelTraits;
-use Latent\ElAdmin\Services\Permission;
-use Latent\ElAdmin\Services\RoleServices;
+use Iheqiang\ElAdmin\Models\ModelTraits;
+use Iheqiang\ElAdmin\Services\Permission;
+use Iheqiang\ElAdmin\Services\RoleServices;
 
 class RolesController extends Controller
 {

@@ -11,11 +11,11 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Support;
+namespace Iheqiang\ElAdmin\Support;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Validator;
-use Latent\ElAdmin\Exceptions\ValidateException;
+use Iheqiang\ElAdmin\Exceptions\ValidateException;
 
 trait Validate
 {

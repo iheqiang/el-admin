@@ -11,13 +11,13 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Command;
+namespace Iheqiang\ElAdmin\Command;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
-use Latent\ElAdmin\Models\ElAdminSeeder;
-use Latent\ElAdmin\Support\ShellCommand;
+use Iheqiang\ElAdmin\Models\ElAdminSeeder;
+use Iheqiang\ElAdmin\Support\ShellCommand;
 
 class InstallCommand extends Command
 {

@@ -11,14 +11,14 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Controller;
+namespace Iheqiang\ElAdmin\Controller;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
-use Latent\ElAdmin\Support\Validate;
-use Latent\ElAdmin\Traits\Response;
+use Iheqiang\ElAdmin\Support\Validate;
+use Iheqiang\ElAdmin\Traits\Response;
 
 class Controller extends BaseController
 {

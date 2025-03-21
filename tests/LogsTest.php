@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Tests;
+namespace Iheqiang\ElAdmin\Tests;
 
 use Exception;
 

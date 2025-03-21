@@ -36,7 +36,7 @@ return [
      */
     'middleware' => [
         // el-admin http middleware for permission control verification
-        'rbac' => Latent\ElAdmin\Middleware\RbacMiddleware::class,
+        'rbac' => Iheqiang\ElAdmin\Middleware\RbacMiddleware::class,
     ],
 
     // Whether to enable database logging
@@ -44,12 +44,12 @@ return [
 
     // Log filtering request method records
     'log_filter_method' => [
-        Latent\ElAdmin\Enum\MethodEnum::GET,
-        Latent\ElAdmin\Enum\MethodEnum::OPTIONS,
-        Latent\ElAdmin\Enum\MethodEnum::HEAD,
+        Iheqiang\ElAdmin\Enum\MethodEnum::GET,
+        Iheqiang\ElAdmin\Enum\MethodEnum::OPTIONS,
+        Iheqiang\ElAdmin\Enum\MethodEnum::HEAD,
     ],
 
-    'log_class' => Latent\ElAdmin\Services\LogWriteService::class,
+    'log_class' => Iheqiang\ElAdmin\Services\LogWriteService::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -62,22 +62,22 @@ return [
     'database' => [
         // user table and user models
         'users_table' => 'admin_users',
-        'users_model' => Latent\ElAdmin\Models\AdminUser::class,
+        'users_model' => Iheqiang\ElAdmin\Models\AdminUser::class,
 
         'user_roles_table' => 'admin_user_roles',
-        'user_roles_model' => Latent\ElAdmin\Models\AdminUserRole::class,
+        'user_roles_model' => Iheqiang\ElAdmin\Models\AdminUserRole::class,
 
         'roles_table' => 'admin_roles',
-        'roles_model' => Latent\ElAdmin\Models\AdminRole::class,
+        'roles_model' => Iheqiang\ElAdmin\Models\AdminRole::class,
 
         'role_menus_table' => 'admin_role_menus',
-        'role_menus_model' => Latent\ElAdmin\Models\AdminRoleMenu::class,
+        'role_menus_model' => Iheqiang\ElAdmin\Models\AdminRoleMenu::class,
 
         'menus_table' => 'admin_menus',
-        'menus_model' => Latent\ElAdmin\Models\AdminMenu::class,
+        'menus_model' => Iheqiang\ElAdmin\Models\AdminMenu::class,
 
         'log_table' => 'admin_logs',
-        'log_model' => Latent\ElAdmin\Models\AdminLog::class,
+        'log_model' => Iheqiang\ElAdmin\Models\AdminLog::class,
 
         'connection' => 'mysql',
     ],

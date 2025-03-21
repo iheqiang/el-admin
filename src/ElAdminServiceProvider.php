@@ -11,11 +11,11 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin;
+namespace Iheqiang\ElAdmin;
 
 use Illuminate\Support\ServiceProvider;
-use Latent\ElAdmin\Command\InstallCommand;
-use Latent\ElAdmin\Command\MenuCacheCommand;
+use Iheqiang\ElAdmin\Command\InstallCommand;
+use Iheqiang\ElAdmin\Command\MenuCacheCommand;
 
 class ElAdminServiceProvider extends ServiceProvider
 {

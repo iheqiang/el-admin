@@ -11,11 +11,11 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Models;
+namespace Iheqiang\ElAdmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
-use Latent\ElAdmin\Enum\ModelEnum;
+use Iheqiang\ElAdmin\Enum\ModelEnum;
 
 class AdminRoleMenu extends Model
 {

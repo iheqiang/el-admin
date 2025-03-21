@@ -11,10 +11,10 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Services;
+namespace Iheqiang\ElAdmin\Services;
 
-use Latent\ElAdmin\Enum\ModelEnum;
-use Latent\ElAdmin\Support\Helpers;
+use Iheqiang\ElAdmin\Enum\ModelEnum;
+use Iheqiang\ElAdmin\Support\Helpers;
 
 class MenuServices
 {

@@ -10,12 +10,12 @@
  */
 
 use Illuminate\Support\Facades\Route;
-use Latent\ElAdmin\Controller\AuthController;
-use Latent\ElAdmin\Controller\LogsController;
-use Latent\ElAdmin\Controller\MenusController;
-use Latent\ElAdmin\Controller\RolesController;
-use Latent\ElAdmin\Controller\UsersController;
-use Latent\ElAdmin\Middleware\RbacMiddleware;
+use Iheqiang\ElAdmin\Controller\AuthController;
+use Iheqiang\ElAdmin\Controller\LogsController;
+use Iheqiang\ElAdmin\Controller\MenusController;
+use Iheqiang\ElAdmin\Controller\RolesController;
+use Iheqiang\ElAdmin\Controller\UsersController;
+use Iheqiang\ElAdmin\Middleware\RbacMiddleware;
 
 Route::group([
     'middleware' => ['auth:api'],

@@ -11,13 +11,13 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Services;
+namespace Iheqiang\ElAdmin\Services;
 
 use Illuminate\Support\Arr;
-use Latent\ElAdmin\Enum\MethodEnum;
-use Latent\ElAdmin\Enum\ModelEnum;
-use Latent\ElAdmin\Models\MenusCache;
-use Latent\ElAdmin\Models\ModelTraits;
+use Iheqiang\ElAdmin\Enum\MethodEnum;
+use Iheqiang\ElAdmin\Enum\ModelEnum;
+use Iheqiang\ElAdmin\Models\MenusCache;
+use Iheqiang\ElAdmin\Models\ModelTraits;
 use Psr\SimpleCache\InvalidArgumentException;
 
 trait Permission

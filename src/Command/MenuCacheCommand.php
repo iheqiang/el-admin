@@ -9,10 +9,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Command;
+namespace Iheqiang\ElAdmin\Command;
 
 use Illuminate\Console\Command;
-use Latent\ElAdmin\Models\MenusCache;
+use Iheqiang\ElAdmin\Models\MenusCache;
 use Psr\SimpleCache\InvalidArgumentException;
 
 class MenuCacheCommand extends Command

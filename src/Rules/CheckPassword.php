@@ -11,7 +11,7 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Rules;
+namespace Iheqiang\ElAdmin\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 

@@ -11,13 +11,13 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Services;
+namespace Iheqiang\ElAdmin\Services;
 
 use Illuminate\Support\Facades\DB;
-use Latent\ElAdmin\Enum\ModelEnum;
-use Latent\ElAdmin\Models\MenusCache;
-use Latent\ElAdmin\Models\ModelTraits;
-use Latent\ElAdmin\Support\Helpers;
+use Iheqiang\ElAdmin\Enum\ModelEnum;
+use Iheqiang\ElAdmin\Models\MenusCache;
+use Iheqiang\ElAdmin\Models\ModelTraits;
+use Iheqiang\ElAdmin\Support\Helpers;
 use Throwable;
 
 class RoleServices

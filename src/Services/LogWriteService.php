@@ -11,12 +11,12 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Services;
+namespace Iheqiang\ElAdmin\Services;
 
 use Jenssegers\Agent\Agent;
-use Latent\ElAdmin\Enum\MethodEnum;
-use Latent\ElAdmin\Models\ModelTraits;
-use Latent\ElAdmin\Support\Helpers;
+use Iheqiang\ElAdmin\Enum\MethodEnum;
+use Iheqiang\ElAdmin\Models\ModelTraits;
+use Iheqiang\ElAdmin\Support\Helpers;
 
 class LogWriteService
 {

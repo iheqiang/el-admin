@@ -11,12 +11,12 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Services;
+namespace Iheqiang\ElAdmin\Services;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use Latent\ElAdmin\Enum\ModelEnum;
-use Latent\ElAdmin\Support\Helpers;
+use Iheqiang\ElAdmin\Enum\ModelEnum;
+use Iheqiang\ElAdmin\Support\Helpers;
 use Throwable;
 
 class UserService

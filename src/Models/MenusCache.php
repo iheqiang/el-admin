@@ -11,11 +11,11 @@ declare(strict_types=1);
  * with this source code in the file LICENSE.
  */
 
-namespace Latent\ElAdmin\Models;
+namespace Iheqiang\ElAdmin\Models;
 
 use Illuminate\Contracts\Cache\Repository;
 use Illuminate\Support\Facades\Cache;
-use Latent\ElAdmin\Enum\ModelEnum;
+use Iheqiang\ElAdmin\Enum\ModelEnum;
 use Psr\SimpleCache\InvalidArgumentException;
 
 class MenusCache
